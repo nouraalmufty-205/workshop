@@ -1,16 +1,14 @@
-# workshopapp
+Home page Screen
 
-A new Flutter project.
+<img width="408" height="947" alt="image" src="https://github.com/user-attachments/assets/23fd7d40-af12-47ee-9e3e-73e518aec415" />
 
-## Getting Started
+New Account Screen
 
-This project is a starting point for a Flutter application.
+<img width="411" height="948" alt="image" src="https://github.com/user-attachments/assets/e528319b-ab57-40b0-ac87-cc7184d1b3a0" />
 
-A few resources to get you started if this is your first Flutter project:
+Sign up Screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="411" height="943" alt="image" src="https://github.com/user-attachments/assets/d3987a18-c5f0-4a1b-bc6f-bb0267db1537" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
