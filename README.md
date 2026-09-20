@@ -8,12 +8,12 @@ Sign up Screen
 
 Home Screen
 
-<img width="318" height="676" alt="image" src="https://github.com/user-attachments/assets/6fe4b2fd-b97b-475b-a3e2-b3762cbd933a" />
-<img width="314" height="680" alt="image" src="https://github.com/user-attachments/assets/fd445dcf-c28f-4813-a39c-f562c41515d6" />
+<img width="358" height="787" alt="image" src="https://github.com/user-attachments/assets/748911e0-50ac-4717-9ebf-96c5e95baf99" />
 
 All Doctors Screen
 
-<img width="322" height="696" alt="image" src="https://github.com/user-attachments/assets/503124d4-fef9-4d9e-95f9-a000a6ee26d3" />
+<img width="355" height="790" alt="image" src="https://github.com/user-attachments/assets/5760e272-680f-42ba-8bc6-3e3d7b27bced" />
+
 
 
 
