@@ -14,9 +14,8 @@ All Doctors Screen
 
 <img width="355" height="790" alt="image" src="https://github.com/user-attachments/assets/5760e272-680f-42ba-8bc6-3e3d7b27bced" />
 
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 
-
-
-
-
-
+# workshop

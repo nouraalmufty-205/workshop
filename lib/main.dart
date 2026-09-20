@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:workshopapp/Screens/loginscrn.dart';
-import 'package:workshopapp/Screens/homescrn.dart';
+import 'package:workshopapp/Screens/home/homescrn.dart';
+import 'package:workshopapp/Screens/navbar.dart';
 import 'package:workshopapp/Screens/signup.dart';
 
 void main() {
@@ -12,6 +14,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return ScreenUtilInit(
+      designSize: Size(430, 932),
+      splitScreenMode: true,
+      builder: (context, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: BottomNavBarScreen(),
+        );
+      },
+    );
   }
 }
