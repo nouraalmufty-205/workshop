@@ -12,7 +12,7 @@ Home Screen
 
 All Doctors Screen
 
-<img width="355" height="790" alt="image" src="https://github.com/user-attachments/assets/5760e272-680f-42ba-8bc6-3e3d7b27bced" />
+<<img width="357" height="786" alt="image" src="https://github.com/user-attachments/assets/4a864897-5401-4657-8663-685afeae14ac" />
 
 Appointment Screen
 
