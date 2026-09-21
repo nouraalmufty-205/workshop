@@ -1,3 +1,7 @@
+Splash Screen
+
+<img width="354" height="786" alt="image" src="https://github.com/user-attachments/assets/b2e18f6f-e578-4bc2-8089-c2deb96f80f7" />
+
 New Account Screen
 
 <img width="411" height="948" alt="image" src="https://github.com/user-attachments/assets/e528319b-ab57-40b0-ac87-cc7184d1b3a0" />
@@ -5,6 +9,10 @@ New Account Screen
 Sign up Screen
 
 <img width="411" height="943" alt="image" src="https://github.com/user-attachments/assets/d3987a18-c5f0-4a1b-bc6f-bb0267db1537" />
+
+forgot password sheet 
+
+<img width="352" height="791" alt="image" src="https://github.com/user-attachments/assets/ada1fbb8-b144-447a-84f4-b1c11f71f847" />
 
 Home Screen
 
