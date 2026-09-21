@@ -15,6 +15,7 @@ class _AllDoctorsScreenState extends State<AllDoctorsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 27, vertical: 46),
         child: SingleChildScrollView(
