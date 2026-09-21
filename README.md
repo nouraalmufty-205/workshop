@@ -26,6 +26,11 @@ Payment Method
 
 <img width="350" height="781" alt="image" src="https://github.com/user-attachments/assets/7dd0fce2-c814-49fc-a09e-e07d1c310ed5" />
 
+Payment Success
+
+<img width="356" height="784" alt="image" src="https://github.com/user-attachments/assets/cc45b11b-c9e0-44e4-a8fe-834bb6022d5e" />
+
+
 
 
 
