@@ -3,7 +3,8 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:workshopapp/Screens/accountscreen.dart';
 import 'package:workshopapp/Screens/home/homescrn.dart';
 import 'package:workshopapp/Screens/messagescreen.dart';
-import 'package:workshopapp/appointmentscreen.dart';
+
+import 'package:workshopapp/Screens/selecttimeanddate.dart';
 
 class BottomNavBarScreen extends StatefulWidget {
   const BottomNavBarScreen({super.key});
@@ -16,7 +17,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
   int currentIndex = 0;
   final List<Widget> screens = [
     HomeScreen(),
-    AppointmentScreen(),
+    SelectTimeAndDate(),
     MessageScreen(),
     AccountScreen(),
   ];
@@ -24,6 +25,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: IndexedStack(index: currentIndex, children: screens),
       bottomNavigationBar: Container(
         decoration: const BoxDecoration(

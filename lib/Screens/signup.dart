@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:workshopapp/widgets/bottom.dart';
+import 'package:workshopapp/widgets/botton.dart';
 import 'package:workshopapp/widgets/validator.dart';
 
 class SignupScreen extends StatelessWidget {
@@ -85,7 +85,7 @@ class SignupScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 70),
-              BlueBottom(title: "Sign In"),
+              BlueButton(title: "Sign In"),
               SizedBox(height: 29),
               Align(
                 alignment: AlignmentGeometry.center,

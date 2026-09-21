@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:workshopapp/Screens/appointment/appointmentscreen.dart';
 
 class Doctorcard extends StatefulWidget {
   final String image;
@@ -79,7 +80,14 @@ class _DoctorcardState extends State<Doctorcard> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => AppointmentScreen(),
+                          ),
+                        );
+                      },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xff5F84C4),
                         shape: RoundedRectangleBorder(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class PageHearder extends StatelessWidget {
   final String title;
@@ -14,15 +15,23 @@ class PageHearder extends StatelessWidget {
             Navigator.pop(context);
           },
         ),
-        SizedBox(width: 55),
-        Text(
-          title,
-          style: TextStyle(
-            fontWeight: FontWeight.w700,
-            fontSize: 26,
-            color: Color(0xff5A88C6),
+
+        Expanded(
+          child: Center(
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                title,
+                style: TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 26,
+                  color: Color(0xff5A88C6),
+                ),
+              ),
+            ),
           ),
         ),
+        48.horizontalSpace,
       ],
     );
   }
