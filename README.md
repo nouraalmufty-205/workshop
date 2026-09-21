@@ -1,6 +1,6 @@
 Splash Screen
 
-<img width="354" height="786" alt="image" src="https://github.com/user-attachments/assets/b2e18f6f-e578-4bc2-8089-c2deb96f80f7" />
+<img width="356" height="787" alt="image" src="https://github.com/user-attachments/assets/c4ee98ca-ca3a-4cd8-bd59-5355ad6f6034" />
 
 New Account Screen
 
