@@ -4,6 +4,7 @@ import 'package:workshopapp/Screens/loginscrn.dart';
 import 'package:workshopapp/Screens/home/homescrn.dart';
 import 'package:workshopapp/Screens/navbar.dart';
 import 'package:workshopapp/Screens/signup.dart';
+import 'package:workshopapp/Screens/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: SignupScreen(),
+          home: SplashScreen(),
         );
       },
     );
