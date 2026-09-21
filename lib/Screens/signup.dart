@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:workshopapp/widgets/botton.dart';
+import 'package:workshopapp/widgets/forgotpasswrodshhet.dart';
 import 'package:workshopapp/widgets/validator.dart';
 
 class SignupScreen extends StatelessWidget {
@@ -10,6 +12,7 @@ class SignupScreen extends StatelessWidget {
     final emailController = TextEditingController();
     final passwordController = TextEditingController();
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 25),
@@ -21,7 +24,7 @@ class SignupScreen extends StatelessWidget {
                   "WELCOME",
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
-                    fontSize: 26,
+                    fontSize: 26.sp,
                     color: Color(0xff5A88C6),
                   ),
                 ),
@@ -30,17 +33,19 @@ class SignupScreen extends StatelessWidget {
               Text(
                 "Sign In",
                 style: TextStyle(
-                  fontSize: 26,
+                  fontSize: 26.sp,
                   fontWeight: FontWeight.w700,
                   color: Color(0xff000000),
                 ),
               ),
-              SizedBox(height: 25),
+              25.verticalSpace,
+
               Text(
                 "Korem ipsum dolor sit amet, consectetur adipiscing elit.",
                 style: TextStyle(fontSize: 18, color: Color(0xff858585)),
               ),
-              SizedBox(height: 62),
+              62.verticalSpace,
+
               Text(
                 "Email",
                 style: TextStyle(
@@ -49,14 +54,15 @@ class SignupScreen extends StatelessWidget {
                   color: Color(0xff000000),
                 ),
               ),
-              SizedBox(height: 10),
+              10.verticalSpace,
 
               ValidatedTextField(
                 type: FieldType.email,
                 label: 'Email',
                 controller: emailController,
               ),
-              SizedBox(height: 24),
+              24.verticalSpace,
+
               Text(
                 "Password",
                 style: TextStyle(
@@ -65,34 +71,48 @@ class SignupScreen extends StatelessWidget {
                   color: Color(0xff000000),
                 ),
               ),
-              SizedBox(height: 16),
+              16.verticalSpace,
+
               ValidatedTextField(
                 type: FieldType.password,
                 label: 'Password',
                 controller: passwordController,
               ),
-              SizedBox(height: 16),
+              16.verticalSpace,
 
               Align(
-                alignment: AlignmentGeometry.centerRight,
-                child: Text(
-                  "Forget Password",
-                  style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 18,
-                    color: Colors.black,
+                alignment: Alignment.centerRight,
+                child: GestureDetector(
+                  onTap: () {
+                    showModalBottomSheet(
+                      context: context,
+                      isScrollControlled: true,
+                      useSafeArea: true,
+                      backgroundColor: Colors.transparent,
+                      builder: (context) => ForgotPasswordBottomSheet(),
+                    );
+                  },
+                  child: const Text(
+                    "Forgot password",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
               ),
-              SizedBox(height: 70),
+              70.verticalSpace,
+
               BlueButton(title: "Sign In"),
-              SizedBox(height: 29),
+              29.verticalSpace,
+
               Align(
                 alignment: AlignmentGeometry.center,
                 child: Text(
                   "Or",
                   style: TextStyle(
-                    fontSize: 22,
+                    fontSize: 22.sp,
                     fontWeight: FontWeight.w700,
                     color: Color(0xff858585),
                   ),
@@ -102,23 +122,24 @@ class SignupScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset("assets/google.png"),
-                  SizedBox(width: 30),
+                  30.horizontalSpace,
+
                   Image.asset("assets/facebook.png"),
                 ],
               ),
-              SizedBox(height: 19),
+              19.verticalSpace,
 
               Align(
                 alignment: AlignmentGeometry.center,
                 child: Text.rich(
                   TextSpan(
                     text: "Don't have an account?",
-                    style: TextStyle(fontSize: 18, color: Color(0xff858585)),
+                    style: TextStyle(fontSize: 18.sp, color: Color(0xff858585)),
                     children: [
                       TextSpan(
                         text: "Sign up",
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 16.sp,
                           color: Color(0xff5A88C6),
                           fontWeight: FontWeight.w600,
                         ),
