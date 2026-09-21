@@ -2,7 +2,7 @@ import 'package:calendar_date_picker2/calendar_date_picker2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:workshopapp/Screens/appointment/widget/timeslot.dart';
-import 'package:workshopapp/payment/paymentscreen.dart';
+import 'package:workshopapp/Screens/payment/paymentscreen.dart';
 import 'package:workshopapp/widgets/botton.dart';
 import 'package:workshopapp/widgets/pageheader.dart';
 import 'package:workshopapp/widgets/seeall.dart';

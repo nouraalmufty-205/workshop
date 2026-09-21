@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:workshopapp/payment/paymentsuccess.dart';
-import 'package:workshopapp/payment/widget/paymentmethod.dart';
+import 'package:workshopapp/Screens/payment/paymentsuccess.dart';
+import 'package:workshopapp/Screens/payment/widget/paymentmethod.dart';
 import 'package:workshopapp/widgets/botton.dart';
 import 'package:workshopapp/widgets/pageheader.dart';
 
@@ -177,7 +177,14 @@ class _PaymentscreenState extends State<Paymentscreen> {
 
                     BlueButton(
                       title: "Pay Now",
-                      onPressed: () => PaymentSuccess(),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => PaymentSuccess(),
+                          ),
+                        );
+                      },
                     ),
                   ],
                 ),
