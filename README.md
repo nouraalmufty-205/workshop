@@ -14,6 +14,16 @@ All Doctors Screen
 
 <img width="355" height="790" alt="image" src="https://github.com/user-attachments/assets/5760e272-680f-42ba-8bc6-3e3d7b27bced" />
 
+Appointment Screen
+
+<img width="354" height="785" alt="image" src="https://github.com/user-attachments/assets/2767e2e5-d8d0-4aee-b872-d49fcc26a0e2" />
+
+Select Time and Date Screen
+
+<img width="353" height="784" alt="image" src="https://github.com/user-attachments/assets/a8b5e324-090e-44c8-b0e3-6a58650661cb" />
+
+
+
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
